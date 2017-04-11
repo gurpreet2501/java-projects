@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.lang.*;
-class Start{
 
+class Start{
 
 	public static void main(String args[]){
 
@@ -29,35 +29,35 @@ class Start{
 	} //main ends
 	void laptopMenu(){
 
-				 System.out.println("**************************");
-         System.out.println("Asset Tracker System");
-         System.out.println("**************************");
-         System.out.println("Please select an option:");
-         System.out.println("1) Add Laptop");
-         System.out.println("2) Delete Laptop");
-         System.out.println("3) List Assigned Laptops");
-         System.out.println("4) Assign Laptop");
-         System.out.println("5) Return Laptop");
-         System.out.println("6) Search Laptops");
-         System.out.println("7) Exit");
-         System.out.println("**************************");
+		System.out.println("**************************");
+		System.out.println("Asset Tracker System");
+		System.out.println("**************************");
+		System.out.println("Please select an option:");
+		System.out.println("1) Add Laptop");
+		System.out.println("2) Delete Laptop");
+		System.out.println("3) List Assigned Laptops");
+		System.out.println("4) Assign Laptop");
+		System.out.println("5) Return Laptop");
+		System.out.println("6) Search Laptops");
+		System.out.println("7) Exit");
+		System.out.println("**************************");
 
 	}
 
 	void phoneMenu(){
 
-				 System.out.println("**************************");
-         System.out.println("Asset Tracker System");
-         System.out.println("**************************");
-         System.out.println("Please select an option:");
-         System.out.println("1) Add Phone");
-         System.out.println("2) Delete Phone");
-         System.out.println("3) List Assigned Phones");
-         System.out.println("4) Assign Phone");
-         System.out.println("5) Return Phone");
-         System.out.println("6) Search Phones");
-         System.out.println("7) Exit");
-         System.out.println("**************************");
+		System.out.println("**************************");
+		System.out.println("Asset Tracker System");
+		System.out.println("**************************");
+		System.out.println("Please select an option:");
+		System.out.println("1) Add Phone");
+		System.out.println("2) Delete Phone");
+		System.out.println("3) List Assigned Phones");
+		System.out.println("4) Assign Phone");
+		System.out.println("5) Return Phone");
+		System.out.println("6) Search Phones");
+		System.out.println("7) Exit");
+		System.out.println("**************************");
 
 	}
 
