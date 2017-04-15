@@ -22,7 +22,7 @@ public class UserInterface
     {
         while(true)
         {
-            switch (menu() ) 
+            switch (menu()) 
             {
                     case 1:
                         showAvailableResources();
@@ -61,7 +61,7 @@ public class UserInterface
     
     private void showAvailableResources()
     {
-        //to be implemented
+     IOUtility.println("Code started");       
     }
     
     private void makeResourceBooking()

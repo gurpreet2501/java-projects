@@ -61,7 +61,7 @@ public class IOUtility
         {
             try
             {
-                System.out.print(prompt + " ");
+                System.out.print(prompt + ": ");
                 i = Integer.parseInt(in.nextLine());
                 break;
             }
