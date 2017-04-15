@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=pCompany
+comment0.target=UserInterface(Company)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ UserInterface\r\n
+comment1.params=
+comment1.target=void\ run()
+comment2.params=
+comment2.target=int\ menu()
+comment3.params=
+comment3.target=void\ showAvailableResources()
+comment4.params=
+comment4.target=void\ makeResourceBooking()
+comment5.params=
+comment5.target=void\ showEmployeeBookings()
+comment6.params=
+comment6.target=void\ showResourceBookings()
+comment7.params=
+comment7.target=void\ deleteBooking()
+numComments=8

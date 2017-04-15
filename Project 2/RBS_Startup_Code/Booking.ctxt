@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=bookingId\ bookingDate\ startTime\ endTime\ purpose\ bookedEmp\ bookedResource
+comment0.target=Booking(int,\ java.time.LocalDate,\ java.time.LocalTime,\ java.time.LocalTime,\ java.lang.String,\ Employee,\ Resource)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Booking\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+numComments=2
