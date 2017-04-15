@@ -1,4 +1,4 @@
-
+import java.io.*;
 /**
  * Write a description of class Resource here.
  * 
@@ -12,9 +12,23 @@ public class Resource
     /**
      * Constructor for objects of class Resource
      */
-    public Resource()
+    // public Resource()
+    // {
+    //     // initialise instance variables
+    // }
+
+    public void getAvailableResources()
     {
-        // initialise instance variables
+      FileReader fis;
+      try{
+
+      fis = new FileReader("Employees.txt");
+      System.out.println(fis);
+
+      }catch(Exception e){
+        System.out.println(e);
+      }
+       
     }
 
     public String toString()

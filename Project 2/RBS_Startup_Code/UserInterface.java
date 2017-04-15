@@ -5,7 +5,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class UserInterface
+public class UserInterface extends IOUtility
 {
     // instance variables - replace the example below with your own
     private Company company;
@@ -61,7 +61,8 @@ public class UserInterface
     
     private void showAvailableResources()
     {
-     IOUtility.println("Code started");       
+     Resource obj = new Resource();   
+     obj.getAvailableResources();
     }
     
     private void makeResourceBooking()
